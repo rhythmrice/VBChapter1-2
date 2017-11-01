@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class KiloConvertor
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -26,18 +26,19 @@ Partial Class Form1
         Me.btnInches = New System.Windows.Forms.Button()
         Me.btnFeet = New System.Windows.Forms.Button()
         Me.btnYards = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnMiles = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblMessage
         '
         Me.lblMessage.AutoSize = True
-        Me.lblMessage.Location = New System.Drawing.Point(219, 54)
+        Me.lblMessage.Font = New System.Drawing.Font("Comic Sans MS", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMessage.Location = New System.Drawing.Point(151, 53)
         Me.lblMessage.Name = "lblMessage"
-        Me.lblMessage.Size = New System.Drawing.Size(39, 13)
+        Me.lblMessage.Size = New System.Drawing.Size(174, 30)
         Me.lblMessage.TabIndex = 0
-        Me.lblMessage.Text = "Label1"
+        Me.lblMessage.Text = "1 Kilometer = ?"
         '
         'btnInches
         '
@@ -66,37 +67,37 @@ Partial Class Form1
         Me.btnYards.Text = "Yards"
         Me.btnYards.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnMiles
         '
-        Me.Button1.Location = New System.Drawing.Point(387, 181)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnMiles.Location = New System.Drawing.Point(387, 181)
+        Me.btnMiles.Name = "btnMiles"
+        Me.btnMiles.Size = New System.Drawing.Size(75, 23)
+        Me.btnMiles.TabIndex = 4
+        Me.btnMiles.Text = "Miles"
+        Me.btnMiles.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnExit
         '
-        Me.Button2.Location = New System.Drawing.Point(199, 260)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnExit.Location = New System.Drawing.Point(199, 260)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.TabIndex = 5
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
         '
-        'Form1
+        'KiloConvertor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(474, 373)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(473, 373)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.btnMiles)
         Me.Controls.Add(Me.btnYards)
         Me.Controls.Add(Me.btnFeet)
         Me.Controls.Add(Me.btnInches)
         Me.Controls.Add(Me.lblMessage)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "KiloConvertor"
+        Me.Text = "Kilometer Convertor"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -105,7 +106,7 @@ Partial Class Form1
     Friend WithEvents btnInches As System.Windows.Forms.Button
     Friend WithEvents btnFeet As System.Windows.Forms.Button
     Friend WithEvents btnYards As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents btnMiles As System.Windows.Forms.Button
+    Friend WithEvents btnExit As System.Windows.Forms.Button
 
 End Class
